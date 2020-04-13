@@ -1,28 +1,28 @@
-## Identifying heart pathologies with ECG data and machine learning
+# Identifying heart pathologies with ECG data and machine learning
 
-# Objective
+## Objective
 Find a machine learning model that can predict, with the best accuracy possible, if a patient has certain arrhythmias or myocardial infarction, based on his or her ECG signals.
 
 
-# Dataset
+## Dataset
 [ECG Heartbeat dataset](https://www.kaggle.com/shayanfazeli/heartbeat) compiled by kaggle, based on the data published by physionet.org [here](https://www.physionet.org/content/ptbdb/1.0.0/). (Citations below)
 
 - 10,506 ECG signals with some type of arrhythmia
 -  4,046 ECG signals with normal heartbeat
 
 
-# Models evaluated
+## Models evaluated
 1. Gradient Boosted Machine (GBM)
 2. Convolutional Neural Network (CNN) with 3 conv layers and 2 fully connected layers
 3. Convolutional Neural Network (CNN) with 4 conv layers and 2 fully connected layers
 
 
-# Best accuracy achieved
-- Validation Accuracy => 0.990
-- ROC AUC Score       => 0.985
+## Best results achieved
+- Validation Accuracy       => 0.990
+- Validation ROC AUC Score  => 0.985
 
 
-# Best configuration
+## Best model
 The configuration that produced the best accuracy was:
 
 - CNN with 4 conv layers and 2 FC layers
