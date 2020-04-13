@@ -1,25 +1,21 @@
-## Welcome to GitHub Pages
+# Predicting Heart malfunctioning with ECG signals
 
-You can use the [editor on GitHub](https://github.com/jaimetcf/ptb_cnn/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Objective
+Find a machine learning model that can predict with the best accuracy possible if a patient has some different arrhythmias or myocardial infarction, based on his or her ECG.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+This analysis used the dataset compiled by kaggle [link](https://www.kaggle.com/shayanfazeli/heartbeat), based on the data published by physionet.org [here](https://www.physionet.org/content/ptbdb/1.0.0/). Please see the citations below.
 
-### Markdown
+The following models were evaluated:
+1. Gradient Boosted Machine (GBM)
+2. Convolutional Neural Network (CNN) with 3 conv layers and 2 fully connected layers
+3. Convolutional Neural Network (CNN) with 4 conv layers and 2 fully connected layers
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Several hyperparameters tested, and the configuration that produced the best accuracy was:
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
+- CNN with 4 conv layers and 2 FC layers
+- batch size = 128
+- epochs = 250
+- Please see the code, file ptb_cnn_0990.ipynb for details on the other hyperparameters used.
 
 **Bold** and _Italic_ and `Code` text
 
