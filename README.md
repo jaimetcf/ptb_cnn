@@ -1,4 +1,4 @@
-# Identifying heart pathologies with ECG data and machine learning
+# Identifying heart pathologies with ECG data and deep learning
 
 ## Objective
 Find a machine learning model that can predict, with the best accuracy possible, if a patient has certain arrhythmias or myocardial infarction, based on his or her ECG signals.
