@@ -1,12 +1,13 @@
 # Identifying heart pathologies with ECG data and machine learning
 
-## Objective
+# Objective
 Find a machine learning model that can predict with the best accuracy possible if a patient has some different arrhythmias or myocardial infarction, based on his or her ECG signals.
 
-Dataset used: [this](https://www.kaggle.com/shayanfazeli/heartbeat) dataset compiled by kaggle, which is based on the data published by physionet.org [here](https://www.physionet.org/content/ptbdb/1.0.0/).
+# Dataset
+ECG Heartbeat [dataset](https://www.kaggle.com/shayanfazeli/heartbeat) compiled by kaggle, and based on the data published by physionet.org [here](https://www.physionet.org/content/ptbdb/1.0.0/).
 Please see the citations below.
 
-The following models were evaluated:
+# Models evaluated
 1. Gradient Boosted Machine (GBM)
 2. Convolutional Neural Network (CNN) with 3 conv layers and 2 fully connected layers
 3. Convolutional Neural Network (CNN) with 4 conv layers and 2 fully connected layers
