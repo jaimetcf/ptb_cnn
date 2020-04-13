@@ -1,9 +1,9 @@
-# Predicting Heart malfunctioning with ECG signals
+# Identifying heart pathologies with ECG data and machine learning
 
 ## Objective
-Find a machine learning model that can predict with the best accuracy possible if a patient has some different arrhythmias or myocardial infarction, based on his or her ECG.
+Find a machine learning model that can predict with the best accuracy possible if a patient has some different arrhythmias or myocardial infarction, based on his or her ECG signals.
 
-This analysis used [this](https://www.kaggle.com/shayanfazeli/heartbeat) dataset compiled by kaggle, which is based on the data published by physionet.org [here](https://www.physionet.org/content/ptbdb/1.0.0/). 
+Dataset used: [this](https://www.kaggle.com/shayanfazeli/heartbeat) dataset compiled by kaggle, which is based on the data published by physionet.org [here](https://www.physionet.org/content/ptbdb/1.0.0/).
 Please see the citations below.
 
 The following models were evaluated:
@@ -18,17 +18,12 @@ Several hyperparameters were tested, and the configuration that produced the bes
 - epochs = 250
 - Please see the code, file ptb_cnn_0990.ipynb for details on the other hyperparameters used.
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
 ```
+Citations:
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Original publication:
+Bousseljot R, Kreiseler D, Schnabel, A. Nutzung der EKG-Signaldatenbank CARDIODAT der PTB über das Internet. Biomedizinische Technik, Band 40, Ergänzungsband 1 (1995) S 317
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jaimetcf/ptb_cnn/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+PhysioNet:
+Goldberger AL, Amaral LAN, Glass L, Hausdorff JM, Ivanov PCh, Mark RG, Mietus JE, Moody GB, Peng C-K, Stanley HE. PhysioBank, PhysioToolkit, and PhysioNet: Components of a New Research Resource for Complex Physiologic Signals (2003). Circulation. 101(23):e215-e220.
+```
