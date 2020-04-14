@@ -24,6 +24,7 @@ Each ECG signal is composed of 187 data points (floating point numerical values)
 - Validation ROC AUC Score  => 0.985
 
 
+
 ## Best model
 The configuration that produced the best accuracy was:
 
