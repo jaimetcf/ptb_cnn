@@ -5,7 +5,7 @@ Find a machine learning model that can predict, with the best accuracy possible,
 
 
 ## Dataset
-[ECG Heartbeat dataset](https://www.kaggle.com/shayanfazeli/heartbeat) compiled by kaggle, based on the data published by physionet.org [here](https://www.physionet.org/content/ptbdb/1.0.0/). (Citations below)
+[ECG Heartbeat Categorization Dataset](https://www.kaggle.com/shayanfazeli/heartbeat) compiled by kaggle, based on the data published by physionet.org [here](https://www.physionet.org/content/ptbdb/1.0.0/). (Citations below)
 
 - 10,506 ECG signals with some type of arrhythmia
 -  4,046 ECG signals with normal heartbeat
