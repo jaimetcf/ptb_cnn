@@ -10,6 +10,8 @@ Find a machine learning model that can predict, with the best accuracy possible,
 - 10,506 ECG signals with some type of arrhythmia
 -  4,046 ECG signals with normal heartbeat
 
+Each ecg signal is composed of 187 data points (floating point numerical values)
+
 
 ## Models evaluated
 1. Gradient Boosted Machine (GBM)
